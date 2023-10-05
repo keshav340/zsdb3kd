@@ -13,7 +13,7 @@ import torchvision.datasets as datasets
 
 from models import LeNet5, LeNet5Half, LeNet5Fifth, AlexNet, AlexNetHalf, AlexNetQuarter
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 parser = argparse.ArgumentParser(description='train-network-cross-entropy')
 
